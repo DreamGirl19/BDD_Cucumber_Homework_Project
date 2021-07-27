@@ -1,0 +1,284 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1869431900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3354366400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User should be able to login with valid credentials",
+        "description": "and open a new account",
+        "id": "techfios-bank-and-cash-new-account-functionality-validation;user-should-be-able-to-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User enters password as \"\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User should be able to see the dashboard",
+            "match": {
+              "location": "LoginStepDefinition.user_should_be_able_to_see_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User clicks on bank and cash",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_bank_and_cash()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User clicks on new account",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User fill up the form entering accountTittle as \"DreamGirl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DreamGirl",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginStepDefinition.user_fill_up_the_form_entering_accountTittle_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User fill up the form entering description as \"Saving Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Saving Account",
+                  "offset": 47
+                }
+              ],
+              "location": "LoginStepDefinition.user_fill_up_the_form_entering_description_as(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User fill up the form entering balance as \"40000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "40000",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginStepDefinition.user_fill_up_the_form_entering_balance_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User fill up the form entering accountNumber as \"SB354278654\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SB354278654",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginStepDefinition.user_fill_up_the_form_entering_accountNumber_as(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User fill up the form entering contactPerson as \"DreamG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DreamG",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginStepDefinition.user_fill_up_the_form_entering_contactPerson_as(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User fill up the form entering phone as \"212 321 4406\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "212 321 4406",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginStepDefinition.user_fill_up_the_form_entering_phone_as(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User fill up the form entering internetBankingURL as \"/www.techfios.com/billing/?ng\u003dlogin/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/www.techfios.com/billing/?ng\u003dlogin/",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginStepDefinition.user_fill_up_the_form_entering_internetBankingURL_as(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User should be able to validate new account created",
+            "match": {
+              "location": "LoginStepDefinition.user_should_be_able_to_validate_new_account_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Techfios bank and cash New Account functionality validation",
+    "description": "",
+    "id": "techfios-bank-and-cash-new-account-functionality-validation",
+    "keyword": "Feature",
+    "uri": "./src/test/java/features/BankAndCashLogin.feature"
+  }
+]
