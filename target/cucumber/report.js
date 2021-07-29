@@ -140,7 +140,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2700141900,
+  "duration": 3087505299,
   "status": "passed"
 });
 formatter.background({
@@ -159,7 +159,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_is_on_techfios_login_page()"
 });
 formatter.result({
-  "duration": 1099737700,
+  "duration": 1421178200,
   "status": "passed"
 });
 formatter.scenario({
@@ -293,7 +293,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_the_username_as(String)"
 });
 formatter.result({
-  "duration": 2203866000,
+  "duration": 2297626499,
   "status": "passed"
 });
 formatter.match({
@@ -306,42 +306,42 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_the_password_as(String)"
 });
 formatter.result({
-  "duration": 2087335800,
+  "duration": 2094534600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 1398331300,
+  "duration": 1719929799,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_should_be_able_to_see_the_dashboard()"
 });
 formatter.result({
-  "duration": 4019746500,
+  "duration": 4028570900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_bank_and_cash()"
 });
 formatter.result({
-  "duration": 105183600,
+  "duration": 104915200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_new_account()"
 });
 formatter.result({
-  "duration": 4645485600,
+  "duration": 4808204501,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_should_able_to_see_the_add_new_account()"
 });
 formatter.result({
-  "duration": 4007789800,
+  "duration": 4009107400,
   "status": "passed"
 });
 formatter.match({
@@ -354,7 +354,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_fill_up_the_form_entering_accountTittle_as(String)"
 });
 formatter.result({
-  "duration": 2160310900,
+  "duration": 2185251199,
   "status": "passed"
 });
 formatter.match({
@@ -367,7 +367,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_fill_up_the_form_entering_description_as(String)"
 });
 formatter.result({
-  "duration": 2132345600,
+  "duration": 2148391199,
   "status": "passed"
 });
 formatter.match({
@@ -380,7 +380,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_fill_up_the_form_entering_balance_as(String)"
 });
 formatter.result({
-  "duration": 2122782900,
+  "duration": 2140897701,
   "status": "passed"
 });
 formatter.match({
@@ -393,7 +393,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_fill_up_the_form_entering_accountNumber_as(String)"
 });
 formatter.result({
-  "duration": 2145983900,
+  "duration": 2150581699,
   "status": "passed"
 });
 formatter.match({
@@ -406,7 +406,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_fill_up_the_form_entering_contactPerson_as(String)"
 });
 formatter.result({
-  "duration": 2128845800,
+  "duration": 2145118799,
   "status": "passed"
 });
 formatter.match({
@@ -419,7 +419,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_fill_up_the_form_entering_phone_as(String)"
 });
 formatter.result({
-  "duration": 2139844000,
+  "duration": 2151486000,
   "status": "passed"
 });
 formatter.match({
@@ -432,25 +432,25 @@ formatter.match({
   "location": "LoginStepDefinition.user_fill_up_the_form_entering_internetBankingURL_as(String)"
 });
 formatter.result({
-  "duration": 2178420100,
+  "duration": 2214344201,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_submit_button()"
 });
 formatter.result({
-  "duration": 1105801500,
+  "duration": 1126196400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_should_be_able_to_validate_new_account_created()"
 });
 formatter.result({
-  "duration": 30600,
+  "duration": 53101,
   "status": "passed"
 });
 formatter.after({
-  "duration": 770870800,
+  "duration": 805009500,
   "status": "passed"
 });
 });
